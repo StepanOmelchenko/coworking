@@ -1,0 +1,103 @@
+.header{
+    background-color: #27273e;
+    padding-top: 12px;
+    padding-bottom: 13px;
+}
+
+.header__logo{
+    display: block;
+    text-decoration: none;
+    float: left;
+    margin-left: 19px;
+    cursor: pointer;
+    background-image: url("../../img/icons/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -20px -139px;
+    width: 99px;
+    height: 51px;
+}
+
+.header__info{
+    float: right;
+    margin: 5px 18px 0 0;
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    text-align: right;
+}
+
+.header__info-phone{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+}
+
+.header__info-shedule{
+    color: #ec1e79;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 3px 3px 0 0;
+    position: relative;
+}
+
+.header__info-title{
+    cursor: pointer;
+}
+
+.header__info-shedule:hover{
+    color: #5dd1f8;
+}
+
+.header__info-shedule:hover .header__dropdown{
+    right: 0;
+}
+
+.header__dropdown{
+    position: absolute;
+    right: -9999px;
+    z-index: 10;
+    box-sizing: border-box;
+    margin: 15px 0 0 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.header__dropdown:before{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: -15px;
+    height: 15px;
+}
+
+.header__dropdown:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -10%;
+    left: 85%;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #fff; 
+}
+
+.header__dropdown-inner{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.header__dropdown-days{
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    color: #ec1e79;
+}
+
+.header__dropdown-dinner{
+    font-family: "GothamPro-Light", arial, sans-serif;
+    color: #221f1f;
+}

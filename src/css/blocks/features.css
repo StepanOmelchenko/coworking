@@ -1,0 +1,103 @@
+.features{
+    text-align: left;
+    color: #221f1f;
+    font-weight: 600;
+    margin-left: 6px;
+}
+
+.features__list{
+    list-style-type: none;
+}
+
+.features__list{
+    margin: 54px 0 0 20px;
+}
+
+.features__item{
+    display: inline-block;
+    width: 209px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1.7;
+    vertical-align: top;
+    margin-right: 57px;
+}
+
+.features__item:last-child{
+    margin-right: 0;
+}
+
+.features__item-img{
+    width: 68px;
+    height: 68px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #27273e;
+    margin: 0 auto;
+}
+
+.features__item-img:before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../../img/icons/sprite.png");
+    background-repeat: no-repeat;
+}
+
+.features__item-img--flower:before{
+    background-position: -120px -210px;
+    width: 27px;
+    height: 31px;
+}
+
+.features__item-img--star:before{
+    background-position: -20px -210px;
+    width: 32px;
+    height: 32px;
+}
+
+.features__item-img--palette:before{
+    background-position: -72px -210px;
+    width: 28px;
+    height: 29px;
+}
+
+.features__item-title{
+    font-size: 11px;
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    text-transform: uppercase;
+    margin: 27px 0 0 2px;
+    letter-spacing: 2.88px;
+}
+
+.features__item-info{
+    margin-top: 16px;
+}
+
+.features__item-positions{
+    text-align: left;
+    list-style-type: none;
+    margin: 4px 0 0 4px;
+}
+
+.features__item-position{
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.features__item-position:last-child{
+    margin-bottom: 0;
+}
+
+.features__item-position:before{
+    content: "•";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    color: #cc3366;
+}

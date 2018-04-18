@@ -1,0 +1,93 @@
+.common-list{
+    list-style-type: none;
+    color: #221f1f;
+    font-size: 18px;
+    margin: 69px 0 63px 0;
+}
+
+.common-list--comments{
+    margin: 39px 0 45px 0;
+}
+
+.common-list__item{
+    padding-bottom: 24px;
+    margin-bottom: 28px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.common-list__item--comments{
+    padding-bottom: 26px;
+    margin-bottom: 30px;
+}
+
+.common-list__item:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0; 
+}
+
+.common-list__link{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.common-list__wrapper{
+    display: inline-block;
+    background-color: #f5f5f5;
+    width: 163px;
+    height: 163px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.common-list__wrapper--noimg{
+    position: relative;
+}
+
+.common-list__wrapper--noimg .common-list__img{
+    visibility: hidden;
+}
+
+.common-list__wrapper--noimg:before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-image: url("../../img/icons/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -20px -139px;
+    width: 99px;
+    height: 51px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.common-list__info{
+    display: inline-block;
+    max-width: 690px;
+    vertical-align: top;
+    margin-left: 12px;
+}
+
+.common-list__date{
+    font-size: 14px;
+    color: #656464;
+}
+
+.common-list__title{
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    margin-top: 5px;
+    letter-spacing: -1px;
+}
+
+.common-list__new{
+    line-height: 1.6;
+    letter-spacing: -.97px;
+    margin-top: 12px;
+    max-width: 691px;
+}
+
+.common-list__new--comments{
+    letter-spacing: -.3px;
+}

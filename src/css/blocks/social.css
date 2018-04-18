@@ -1,0 +1,77 @@
+.social__title{
+    color: #ffffff;
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.social__list{
+    list-style-type: none;
+    margin: 7px 29px 0 0;
+}
+
+.social__item{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.social__item:last-child{
+    margin-right: 0;
+}
+
+.social__link{
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d4d4d8;
+    transition: background-color .4s;
+    cursor: pointer;
+}
+
+.social__link:befOre{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../../img/icons/sprite.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.social__link--vk:before{
+    background-position: -20px -299px;
+    width: 12px;
+    height: 7px;
+}
+
+.social__link--fb:before{
+    background-position: -20px -326px;
+    width: 6px;
+    height: 13px;
+}
+
+.social__link--google:before{
+    background-position: -95px -297px;
+    width: 15px;
+    height: 9px;
+}
+
+.social__link--twitter:before{
+    background-position: -150px -261px;
+    width: 11px;
+    height: 9px;
+}
+
+.social__link--mail:before{
+    background-position: -130px -297px;
+    width: 12px;
+    height: 9px; 
+}
+
+.social__link:hover{
+    background-color: #ec1e79;
+}
+

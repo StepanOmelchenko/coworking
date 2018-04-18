@@ -1,0 +1,92 @@
+.sidebar{
+    float: left;
+    margin: 67px 0 0 20px;
+}
+
+.sidebar-list{
+    list-style-type: none;
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.sidebar-list__item{
+    margin-bottom: 36px;
+}
+
+.sidebar-list__item:last-child{
+    margin-bottom: 0;
+}
+
+.sidebar-list__item:hover .sidebar-list__link{
+    color: #000;
+}
+
+.sidebar-list__item--active .sidebar-list__link{
+    color: #000;
+    pointer-events: none;
+}
+
+.sidebar-list__link{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ec1e79;
+}
+
+.sidebar-list__title{
+    padding-left: 37px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.sidebar-list__title:before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -3px;
+    vertical-align: middle;
+    background-image: url("../../img/icons/sprite.png");
+    background-repeat: no-repeat;
+}
+
+.sidebar-list__title--main:before{
+    background-position: -58px -295px;
+    width: 17px;
+    height: 15px;
+}
+
+.sidebar-list__title--star:before{
+    background-position: -138px -178px;
+    width: 22px;
+    height: 19px;
+}
+
+.sidebar-list__title--wallet:before{
+    background-position: -111px -261px;
+    width: 19px;
+    height: 16px;
+}
+
+.sidebar-list__item--active .sidebar-list__title--main:before,
+.sidebar-list__title--main:hover:before{
+    background-position: -20px -262px;
+    width: 18px;
+    height: 17px;
+}
+
+.sidebar-list__item--active .sidebar-list__title--star:before,
+.sidebar-list__title--star:hover:before{
+    background-position: -139px -139px;
+    width: 22px;
+    height: 19px;
+}
+
+.sidebar-list__item--active .sidebar-list__title--wallet:before,
+.sidebar-list__title--wallet:hover:before{
+    background-position: -72px -259px;
+    width: 19px;
+    height: 16px;
+}

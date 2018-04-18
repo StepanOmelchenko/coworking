@@ -1,0 +1,135 @@
+.rates{
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+.rates__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #221f1f;
+    margin-top: 37px;
+    max-width: 863px;
+}
+
+.rates__img-wrapper{
+    position: relative;
+}
+
+.rates__img-wrapper:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #27273e;
+    opacity: .85;
+}
+
+.rates__img-title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    font-size: 24px;
+    color: #5dd1f8;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.rates__item{
+    width: 250px;
+    overflow: hidden;
+    margin-bottom: 43px;
+}
+
+.rates__img-wrapper{
+    background-color: #002255;
+}
+
+.rates__title{
+    text-align: center;
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+    font-size: 18px;
+    margin: 23px 0 0 1px;
+}
+
+.rates__title--vip{
+    color: #ec1e79;
+}
+
+.rates__text{
+    text-align: center;
+    line-height: 1.5;
+    margin: 9px 0 0 2px;
+}
+
+.pairs{
+    margin: 0 0 72px 5px;
+}
+
+.pairs__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 755px;
+}
+
+.pairs__item{
+    margin: 35px 0 20px 0;
+    width: 200px;
+}
+
+.pairs__link{
+    display: inline-block;
+    filter: grayscale(90%);
+    transition: filter .2s;
+    background-image: url("../../img/content/pairs/sprite.png");
+    background-repeat: no-repeat;
+}
+
+.pairs__link:hover{
+    filter: none;
+}
+
+.pairs__link--vinter{
+    background-position: -20px -0px;
+    width: 160px;
+    height: 41px;
+}
+
+.pairs__link--drop{
+    background-position: -20px -305px;
+    width: 123px;
+    height: 62px;
+}
+
+.pairs__link--anna{
+    background-position: -20px -223px;
+    width: 130px;
+    height: 62px;
+}
+
+.pairs__link--tishkin{
+    background-position: -20px -61px;
+    width: 160px;
+    height: 60px;
+}
+
+.pairs__link--pufok{
+    background-position: -20px -141px;
+    width: 137px;
+    height: 62px;
+}
+
+.pairs__link--avantaj{
+    background-position: -20px -387px;
+    width: 51px;
+    height: 62px;
+}

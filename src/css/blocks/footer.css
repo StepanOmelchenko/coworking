@@ -1,0 +1,56 @@
+.footer{
+    margin-top: -80px;
+    height: 80px;
+    background-color: #27273e;
+    padding-top: 13px;
+    box-sizing: border-box;
+}
+
+.footer__left{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+}
+
+.footer__center{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.footer__right{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    text-align: right;
+}
+
+.footer__text{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 19px;
+}
+
+.footer__text-link{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-family: "GothamPro-Bold", Arial, sans-serif;
+}
+
+.footer__logo{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    background-image: url("../../img/icons/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -20px -139px;
+    width: 99px;
+    height: 51px;
+}
+
+.footer__social{
+    margin: 5px 19px 0 0;
+}
